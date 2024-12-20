@@ -2,6 +2,9 @@ import React from 'react'
 import Navbar from './Navbar'
 import Card from './Card'
 import Card2 from './Card2'
+import Anouncement from './Anouncement'
+import UpcomingSch from './UpcomingSch'
+import RecentActivity from './RecentActivity'
 
 
 const Dashboard = () => {
@@ -11,21 +14,23 @@ const Dashboard = () => {
           title: 'Available Position',
           number: 24,
           description: '4 Urgently needed',
-          bgColor: 'bg-custombg2' 
-
+          bgColor: 'bg-custombg1',
+          textcolor : 'text-textcolor1'
         },
         {
           title: 'Job Open',
           number: 10,
           description: '4 Active hiring',
-          bgColor: 'bg-custombg1'
+          bgColor: 'bg-custombg2' ,
+          textcolor: 'text-textcolor2'
 
         },
         {
           title: 'New Employees',
           number: 24,
           description: '4 Department',
-          bgColor: 'bg-custombg3'
+          bgColor: 'bg-custombg3',
+          textcolor : 'text-textcolor3'
         }
       ]
       const dashboardThings2 = [
@@ -44,23 +49,24 @@ const Dashboard = () => {
           percentage: 5
         }
       ]
+
+      
   return (
-    <div className='w-screen'>
+    <div className='w-screen font-poppins'>
             <Navbar />
-        <div className='bg-red-100 h-screen px-10'>
-          <h1 className='font-semibold text-3xl p-4'>Dashboard</h1>
-          <div>
-            <div>
-              <Card info={dashboardThings}/>
-            </div>
-            <div>
-              <Card2 info={dashboardThings2} />
-            </div>
-            <div className='w-640 h-334 bg-red-900 rounded-lg'>
-              <h1>Announcement</h1>
-            </div>
+        <div className='h-screen px-10'>
+          <h1 className='font-semibold text-2xl py-4'>Dashboard</h1>
+          <div className='flex gap-5'>
+                <div>
+                  <Card info={dashboardThings}/>
+                  <Card2 info={dashboardThings2} />
+                  <Anouncement />
+                </div>
+                <div className='grid gap-5'>
+                  <RecentActivity />
+                  <UpcomingSch />
+                </div>
           </div>
-          <div></div>
         </div>
     </div>
   )

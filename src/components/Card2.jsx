@@ -1,25 +1,28 @@
 import React from 'react'
+import vector from '../assets/Group4.png'
 
 const Card2 = ({info}) => {
   return (
     <div className='flex gap-3'>
         {
             info.map((item,index)=> (
-            <div className='h-196 w-312 flex bg-white rounded-lg p-5 my-5 border-1 border-customBorder'>
-                <div>
-                    <div>
-                        <h3>{item.title}</h3>
-                        <h1>{item.number}</h1>
+            <div className='h-196 w-312 flex gap-3 bg-white rounded-lg p-5 my-5 border-2 border-customBorder'>
+                <div className='grid'>
+                    <div className='grid'>
+                        <h3 className='font-medium text-lg text-card2text'>{item.title}</h3>
+                        <h1 className='font-medium text-4xl text-card2text'>{item.number}</h1>
                     </div>
                     <div>
-                        <h2>{item.men} Men</h2>
-                        <h2>{item.women} Women</h2>
+                        <h2 className='font-normal text-xs text-card2text2'>{item.men} Men</h2>
+                        <h2 className='font-normal text-xs text-card2text2'>{item.women} Women</h2>
                     </div>
                 </div>
-                <div>
-                    <div>Hello</div>
+                <div className='grid justify-around'>
                     <div>
-                        <h2>+{item.percentage}%Past month</h2>
+                        <img src={vector} alt='vector graph' />
+                    </div>
+                    <div>
+                        <h3 className='bg-red-50 rounded font-normal text-sm px-2 w-32'> +{item.percentage}% Past month</h3>
                     </div>
                 </div>
             </div>
