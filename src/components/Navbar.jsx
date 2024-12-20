@@ -2,7 +2,7 @@ import React from 'react'
 import { Search } from 'lucide-react';
 import { BellDot } from 'lucide-react';
 import { MessageSquareMore } from 'lucide-react';
-import { ChevronDown } from 'lucide-react';
+import { ChevronDown,AlignJustify } from 'lucide-react';
 
 
 const Navbar = () => {
@@ -10,7 +10,10 @@ const Navbar = () => {
     <div className='h-24 p-4 flex sm:gap-1 gap-60 sm:justify-between ml-5 text-card2text2'>
       <div className='w-10 sm:w-334 flex gap-2 justify-around border-2 border-slate-200 h-11 mt-3'>
         <input type='text' placeholder='Search' className='p-2 hidden sm:block' />
-        <div className='mt-2'>
+        <div className='mt-2 flex gap-2'>
+          <div className='block sm:hidden'>
+          <AlignJustify />
+        </div>
           <Search />
         </div>
       </div>

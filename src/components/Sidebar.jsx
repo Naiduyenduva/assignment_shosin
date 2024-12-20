@@ -1,7 +1,8 @@
 import React from 'react'
 import Heading from './Heading'
 import logo from '../assets/logo.png'
-import { LayoutDashboard, UserPlus, Users,CalendarCheck, Headset, Settings, Clapperboard } from 'lucide-react';
+import { LayoutDashboard, UserPlus, Users,CalendarCheck, Headset, Settings, Clapperboard,AlignJustify } from 'lucide-react';
+
 
 
 const Sidebar = () => {
@@ -46,6 +47,7 @@ const Sidebar = () => {
   },
   ]
   return (
+    <>
     <div className='hidden text-customfontcolor sm:block'>
       <div className='h-24'>
         <div className='flex gap-2 p-4 m-4'>
@@ -61,6 +63,7 @@ const Sidebar = () => {
             <Heading itemsArray={otherItems} />
         </div>       
     </div>
+    </>
   )
 }
 
