@@ -46,7 +46,7 @@ const Sidebar = () => {
   },
   ]
   return (
-    <div className='text-customfontcolor'>
+    <div className='hidden text-customfontcolor sm:block'>
       <div className='h-24'>
         <div className='flex gap-2 p-4 m-4'>
           <img src={logo} alt='logo' className='h-8 w-8' />

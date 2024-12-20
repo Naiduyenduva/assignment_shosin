@@ -56,7 +56,7 @@ const Dashboard = () => {
             <Navbar />
         <div className='h-screen px-10'>
           <h1 className='font-semibold text-2xl py-3 w-640 h-62'>Dashboard</h1>
-          <div className='flex gap-5'>
+          <div className='grid gap-2 sm:flex sm:gap-5'>
                 <div>
                   <Card info={dashboardThings}/>
                   <Card2 info={dashboardThings2} />

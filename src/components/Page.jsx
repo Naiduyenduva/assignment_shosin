@@ -6,7 +6,7 @@ import Sidebar from './Sidebar'
 
 const Page = () => {
   return (
-    <div className='flex font-poppins'>
+    <div className='grid sm:flex font-poppins'>
         <Sidebar />
         <Dashboard />
     </div>

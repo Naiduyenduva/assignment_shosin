@@ -3,7 +3,7 @@ import React from 'react'
 const RecentActivity = () => {
   return (
     <div>
-        <div className='w-427 h-258 bg-recentActivitybg text-white rounded-xl grid gap-2 p-2'>
+        <div className='sm:w-427 h-258 bg-recentActivitybg text-white rounded-xl grid gap-2 p-2'>
             <div className='bg-recentActivitybg2 h-12 rounded-xl'>
                 <h1 className='font-medium py-2 pl-5 text-lg'>Recent Activity</h1>
             </div>

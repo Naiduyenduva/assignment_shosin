@@ -27,7 +27,7 @@ const Anouncement = () => {
 ]
   return (
     <div>
-         <div className='w-640 h-334 rounded-lg border-2 border-slate-200 mt-1 '>
+         <div className='sm:w-640 h-334 rounded-lg border-2 border-slate-200 mt-1 '>
             <div className='flex justify-around px-5 py-3'>
                 <h1 className='text-customfontcolor2 font-semibold px-4 text-lg'>Announcement</h1>
                 <div className='flex gap-2 text-card2text2'>
