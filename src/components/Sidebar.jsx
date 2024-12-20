@@ -8,34 +8,41 @@ const Sidebar = () => {
   const mainmenuItems = [
     {
         title: "Dashboard",
-        icon: LayoutDashboard
+        icon: LayoutDashboard,
+        textcolor: 'text-DashboardColor'
     },
     {
         title: 'Recruitment',
-        icon: UserPlus
+        icon: UserPlus,
+        textcolor: 'text-customfontcolor'
     },
     {
         title: "Schedule",
-        icon: CalendarCheck
+        icon: CalendarCheck,
+        textcolor: 'text-customfontcolor'
     },
     {
         title: 'Employee',
-        icon: Users
+        icon: Users,
+        textcolor: 'text-customfontcolor'
     },
     {
         title: "Department",
-        icon: Clapperboard
+        icon: Clapperboard,
+        textcolor: 'text-customfontcolor'
     },
   
 ]
   const otherItems = [
     {
       title: 'Support',
-      icon: Headset
+      icon: Headset,
+      textcolor: 'text-customfontcolor'
   },
   {
       title: "Settings",
-      icon: Settings
+      icon: Settings,
+      textcolor: 'text-customfontcolor'
   },
   ]
   return (

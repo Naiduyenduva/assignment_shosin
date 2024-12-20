@@ -34,7 +34,7 @@ const UpcomingSch = () => {
             <SmallCard info={detailsArray} />
             <p className='ml-9 text-slate-500 font-normal text-sm'>Other</p>
             <SmallCard info={detailsArray2} />
-            <h2 className='text-center text-endtitles border-2 border-slate-200 mx-3 ml-8 rounded-lg'>Creat a New Schedule</h2>
+            <h2 className='text-center text-endtitles border-t-2 border-slate-200 mt-3 pt-4 '>Creat a New Schedule</h2>
         </div>
     </div>
   )

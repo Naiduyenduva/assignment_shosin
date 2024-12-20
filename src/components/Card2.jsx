@@ -17,9 +17,9 @@ const Card2 = ({info}) => {
                         <h2 className='font-normal text-xs text-card2text2'>{item.women} Women</h2>
                     </div>
                 </div>
-                <div className='grid justify-around'>
+                <div className=''>
                     <div>
-                        <img src={vector} alt='vector graph' />
+                        <img src={vector} alt='vector graph' className='mt-4 mb-3' />
                     </div>
                     <div>
                         <h3 className='bg-red-50 rounded font-normal text-sm px-2 w-32'> +{item.percentage}% Past month</h3>

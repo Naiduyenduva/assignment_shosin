@@ -14,7 +14,7 @@ const Navbar = () => {
           <Search />
         </div>
       </div>
-      <div className='w-364 bg-red-00 flex gap-5'>
+      <div className='w-364 bg-red-00 flex gap-5 mt-2'>
         <div className='flex gap-4 py-4'>
               <BellDot />
               <MessageSquareMore />

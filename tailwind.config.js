@@ -50,7 +50,8 @@ export default {
         card2text: '#161E54',
         card2text2: '#686868',
         endtitles: '#FF5151',
-        namecolor: '#161E54'
+        namecolor: '#161E54', 
+        DashboardColor: '#FF5151'
       },
     },
   },

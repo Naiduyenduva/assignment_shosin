@@ -1,6 +1,4 @@
 import React from 'react'
-import { LayoutDashboard, UserPlus, Users,CalendarCheck, Headset, Settings, Clapperboard } from 'lucide-react';
-
 
 const Heading = ({itemsArray}) => {
 
@@ -10,9 +8,9 @@ const Heading = ({itemsArray}) => {
             {
                 itemsArray.map((item,index) => {
                     return (
-                        <div key={index} className='flex gap-6 py-4 pl-6'>
+                        <div key={index} className={`flex gap-6 py-4 pl-6 ${item.textcolor} `}>
                         <item.icon size={20} />
-                        <h3>{item.title}</h3>
+                        <h3 className={`${item.textcolor}`}>{item.title}</h3>
                         </div>
                     )
                 })
