@@ -1,7 +1,7 @@
 import React from 'react'
 import Heading from './Heading'
 import logo from '../assets/logo.png'
-import { LayoutDashboard, UserPlus, Users,CalendarCheck, Headset, Settings, Clapperboard,AlignJustify } from 'lucide-react';
+import { LayoutDashboard, UserPlus, Users,CalendarCheck, Headset, Settings, Clapperboard } from 'lucide-react';
 
 
 

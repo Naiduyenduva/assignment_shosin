@@ -8,10 +8,10 @@ import { ChevronDown,AlignJustify } from 'lucide-react';
 const Navbar = () => {
   return (
     <div className='h-24 p-4 flex sm:gap-1 gap-60 sm:justify-between ml-5 text-card2text2'>
-      <div className='w-10 sm:w-334 flex gap-2 justify-around border-2 border-slate-200 h-11 mt-3'>
-        <input type='text' placeholder='Search' className='p-2 hidden sm:block' />
+      <div className='w-10 sm:w-334 flex gap-2 justify-around sm:border-2 sm:border-slate-200 h-11 mt-3'>
+        <input type='text' placeholder='Search' className='p-2 hidden sm:block sm:focus:outline-none' />
         <div className='mt-2 flex gap-2'>
-          <div className='block sm:hidden'>
+          <div className='block sm:hidden ml-2'>
           <AlignJustify />
         </div>
           <Search />
