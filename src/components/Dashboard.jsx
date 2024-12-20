@@ -1,5 +1,4 @@
 import React from 'react'
-import Navbar from './Navbar'
 import Card1 from './Card1'
 import Card2 from './Card2'
 import Anouncement from './Anouncement'
@@ -28,10 +27,9 @@ const Dashboard = () => {
 
       
   return (
-    <div className='w-screen font-poppins'>
-            <Navbar />
+    <div>
         <div className='h-screen px-10'>
-          <h1 className='font-semibold text-2xl py-3 w-640 h-62'>Dashboard</h1>
+          <h1 className='font-medium text-2xl py-3 w-640 h-62'>Dashboard</h1>
           <div className='grid gap-2 sm:flex sm:gap-5'>
                 <div>
                   <div className='grid sm:flex gap-3'>

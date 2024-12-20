@@ -1,9 +1,5 @@
 import React from 'react'
-import { Search } from 'lucide-react';
-import { BellDot } from 'lucide-react';
-import { MessageSquareMore } from 'lucide-react';
-import { ChevronDown,AlignJustify } from 'lucide-react';
-
+import { Search, BellDot,MessageSquareMore, ChevronDown,AlignJustify  } from 'lucide-react';
 
 const Navbar = () => {
   return (
