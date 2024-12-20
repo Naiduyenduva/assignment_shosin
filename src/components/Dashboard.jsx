@@ -27,7 +27,7 @@ const Dashboard = () => {
 
       
   return (
-    <div>
+    <div className='w-screen font-poppins'>
         <div className='h-screen px-10'>
           <h1 className='font-medium text-2xl py-3 w-640 h-62'>Dashboard</h1>
           <div className='grid gap-2 sm:flex sm:gap-5'>
