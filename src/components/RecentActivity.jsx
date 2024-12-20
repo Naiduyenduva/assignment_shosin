@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from './Button'
 
 const RecentActivity = () => {
   return (
@@ -14,7 +15,7 @@ const RecentActivity = () => {
             </div>
             <div className='flex gap-5 ml-4'>
                 <h1 className='font-normal	text-sm pt-2'>Today you makes 12 Activity</h1>
-                <button className='bg-activityButton py-2 px-4 w-139 h-38 rounded font-medium text-sm text-senter'>See All Activity</button>
+                <Button text='See All Activity' variant='primary'></Button>
             </div>
         </div>
     </div>
