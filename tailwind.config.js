@@ -13,12 +13,14 @@ export default {
         '242' : '242px',
         '283' : '283px',
         '312': '312px',
+        '334': '334px',
         '364': '364px',
         '427' : '427px',
         '640': '640px'
       },
       height : {
         '38': '38px',
+        '62': '62px',
         '78' : '78px',
         '130': '130px',
         '196': '196px',
@@ -46,7 +48,9 @@ export default {
         customfontcolor : '#686868',
         customfontcolor2: '#161E54',
         card2text: '#161E54',
-        card2text2: '#686868'
+        card2text2: '#686868',
+        endtitles: '#FF5151',
+        namecolor: '#161E54'
       },
     },
   },

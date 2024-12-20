@@ -7,7 +7,7 @@ const RecentActivity = () => {
             <div className='bg-recentActivitybg2 h-12 rounded-xl'>
                 <h1 className='font-medium py-2 pl-5 text-lg'>Recent Activity</h1>
             </div>
-            <div className='ml-4'>
+            <div className='ml-4 grid gap-2'>
                 <h1 className='font-medium text-xs opacity-60'>10.40 AM, Fri 10 Sept 2021</h1>
                 <h1 className='font-medium text-lg'>You Posted a New Job</h1>
                 <p className='text-sm font-normal opacity-80'>Kindly check the requirements and terms of work and make sure everything is right.</p>

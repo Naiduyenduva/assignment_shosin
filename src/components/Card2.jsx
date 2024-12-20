@@ -7,10 +7,10 @@ const Card2 = ({info}) => {
         {
             info.map((item,index)=> (
             <div className='h-196 w-312 flex gap-3 bg-white rounded-lg p-5 my-5 border-2 border-customBorder'>
-                <div className='grid'>
+                <div className='grid gap-2'>
                     <div className='grid'>
-                        <h3 className='font-medium text-lg text-card2text'>{item.title}</h3>
-                        <h1 className='font-medium text-4xl text-card2text'>{item.number}</h1>
+                        <h3 className='font-medium text-lg text-card2text w-36'>{item.title}</h3>
+                        <h1 className='font-bold text-4xl text-card2text'>{item.number}</h1>
                     </div>
                     <div>
                         <h2 className='font-normal text-xs text-card2text2'>{item.men} Men</h2>

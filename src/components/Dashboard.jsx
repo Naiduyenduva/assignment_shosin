@@ -55,7 +55,7 @@ const Dashboard = () => {
     <div className='w-screen font-poppins'>
             <Navbar />
         <div className='h-screen px-10'>
-          <h1 className='font-semibold text-2xl py-4'>Dashboard</h1>
+          <h1 className='font-semibold text-2xl py-3 w-640 h-62'>Dashboard</h1>
           <div className='flex gap-5'>
                 <div>
                   <Card info={dashboardThings}/>
