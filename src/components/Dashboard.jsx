@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from './Navbar'
-import Card from './Card'
+import Card1 from './Card1'
 import Card2 from './Card2'
 import Anouncement from './Anouncement'
 import UpcomingSch from './UpcomingSch'
@@ -9,30 +9,6 @@ import RecentActivity from './RecentActivity'
 
 const Dashboard = () => {
 
-      const dashboardThings = [
-        {
-          title: 'Available Position',
-          number: 24,
-          description: '4 Urgently needed',
-          bgColor: 'bg-custombg1',
-          textcolor : 'text-textcolor1'
-        },
-        {
-          title: 'Job Open',
-          number: 10,
-          description: '4 Active hiring',
-          bgColor: 'bg-custombg2' ,
-          textcolor: 'text-textcolor2'
-
-        },
-        {
-          title: 'New Employees',
-          number: 24,
-          description: '4 Department',
-          bgColor: 'bg-custombg3',
-          textcolor : 'text-textcolor3'
-        }
-      ]
       const dashboardThings2 = [
         {
           title: 'Total Employees',
@@ -58,7 +34,11 @@ const Dashboard = () => {
           <h1 className='font-semibold text-2xl py-3 w-640 h-62'>Dashboard</h1>
           <div className='grid gap-2 sm:flex sm:gap-5'>
                 <div>
-                  <Card info={dashboardThings}/>
+                  <div className='grid sm:flex gap-3'>
+                    <Card1 text="Available Position" description="4 Urgently needed" number={24} variant="primary" tVariant='primary'></Card1>
+                    <Card1 text="Job Open" description="4 Active hiring" number={10} variant="secondary" tVariant="secondary" ></Card1>
+                    <Card1 text="New Employees" description="4 Department" number={24} variant="danger" tVariant='danger' ></Card1>
+                  </div>
                   <Card2 info={dashboardThings2} />
                   <Anouncement />
                 </div>
