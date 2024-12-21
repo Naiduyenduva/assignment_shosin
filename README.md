@@ -2,10 +2,12 @@
 
 # 1.Prerequisites
   node.js 
+  
   npm
  # 2.Installation 
    1.clone the repository
-     git clone https://github.com/Naiduyenduva/assignment_shosin.git
+   
+  git clone https://github.com/Naiduyenduva/assignment_shosin.git
 # ScreenShots
 Landing page
 <img width="949" alt="Screenshot 2024-12-21 065543" src="https://github.com/user-attachments/assets/dc6022be-dcb0-4caf-aad1-519098baed32" />
