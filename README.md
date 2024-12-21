@@ -1,3 +1,15 @@
+# Technology stack
+  React.js
+
+  Tailwind CSS
+
+  Javascript
+
+  # Extra Libraries added
+  
+    Lucide-react for icons
+  
+
 # How To Run
 
 # 1.Prerequisites
